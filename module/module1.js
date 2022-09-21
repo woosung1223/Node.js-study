@@ -9,4 +9,4 @@ module.exports = {
     month,
     date,
     introduce,
-};
+}

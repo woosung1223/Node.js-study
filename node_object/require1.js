@@ -4,4 +4,3 @@ const variable = 1;
 module.exports = {
     variable,
 };
-
