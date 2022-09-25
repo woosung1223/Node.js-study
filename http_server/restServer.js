@@ -8,6 +8,7 @@ http.createServer(async (req, res) => {
 
             if (req.url === '/') {
                 res.writeHead(200, {'Set-Cookie' : 'mycookie=test'});
+                // 쿠키 값 전달
                 return res.end('/ GET');
             }
             else if (req.url === '/users') {
